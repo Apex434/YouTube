@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body{background-color: black;
+         color: white; padding;
+}
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: none;
+}
+</style>
+</head>
+<body>
+<i class="fa fa-YouTube"style="position: relative;top:10px;">YouTube</i>
+<i class="fa fa-search"style="position: relative;top:10px; left:250px;"></i>
+<i class="fa fa-bell"style="position: relative;top:10px;left:170px;"></i>
+<i class="fa fa-tv"style="position: relative;top:10px;left:90px;"></i><br></br>
+<p style="background-color: white; color: black; padding; width:50px; height:28px; text-align: center; border-radius:5px; position: relative;left:10px; padding-top:5px;"><i class="fa fa-compass"></i>
+<p style="background-color: White; color: black; padding; width:70px; height:20px; text-align: center; padding-top:15px;border-radius:10px;position: relative;left:70px; bottom:50px;">All
+<p style="background-color: White; color: black; padding; font-size:13px; width:100px; height:20px; text-align: center; padding-top:15px;border-radius:10px;position: relative;left:150px; bottom:100px;">Sport leagues
+<p style="background-color: White; color: black; padding; font-size:13px; width:100px; height:20px; text-align: center;padding-top:15px;border-radius:10px;position: relative;left:260px; bottom:148px;">FC Barcalona</p>
+<ul>
+  <li><a class="active"><i class="fa fa-home"><p style="position: relative; bottom:2px;">home</p></i></a></li>
+  <li><a><I class="fa fa-tv"><p style="position: relative; bottom:2px;">shorts</p></I></a>
+  <li><a><I class="fa fa-star"><p style="position: relative; bottom:2px;"></p></I></a>
+   <li><a><I class="fa fa-cloud"><p style="position: relative; bottom:2px;">subs.</p></I></a>
+   <li><a><I class="fa fa-file"><p style="position: relative; bottom:2px;">lib</p></I></a>
+</ul>
+<div>
+<p><img src="/storage/emulated/0/Pictures/Football Wallpapers/Wall 2022-09-25-15-39-57.jpg"width="350"height="800">Watch the best of Messi in ligue 1  /2022-2023</p>
+<p><img src="/storage/emulated/0/Pictures/Football Wallpapers/Wall 2022-09-11-16-54-42.jpg"width="350"height="800">Watch how Gavi scored against Real Madrid.  26/10/22</p>
+</div>
+</body>
+</html>
